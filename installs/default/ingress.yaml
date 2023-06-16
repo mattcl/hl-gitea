@@ -15,7 +15,7 @@ spec:
       match: Host(`gitea.hl.ancalagon.black`)
       priority: 10
       services:
-        - name: gitea-svc
+        - name: gitea-http
           port: 80
   tls:
     certResolver: default
