@@ -25,6 +25,10 @@ kind: IngressRouteTCP
 metadata:
   name: gitea-ssh
   namespace: gitea
+  annotations:
+    kubernetes.io/ingress.class: traefik-internal
+  labels:
+    traffic-type: internal
 spec:
   entryPoints:
     - gitea-ssh
