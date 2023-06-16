@@ -363,7 +363,7 @@ gitea:
   #  RUN_MODE: dev
   #
     server:
-      PROTOCOL: https
+      PROTOCOL: http
       DOMAIN: gitea.hl.ancalagon.black
       ROOT_URL: https://gitea.hl.ancalagon.black
       SSH_DOMAIN: gitea.hl.ancalagon.black
