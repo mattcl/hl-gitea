@@ -371,6 +371,9 @@ gitea:
       ROOT_URL: https://gitea.hl.ancalagon.black
       SSH_DOMAIN: gitea.hl.ancalagon.black
       SSH_PORT: 2222
+
+    repository:
+      DEFAULT_BRANCH: master
   #
   #  security:
   #    PASSWORD_COMPLEXITY: spec
