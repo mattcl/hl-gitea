@@ -113,7 +113,7 @@ service:
   ## @param service.ssh.annotations SSH service annotations
   ssh:
     type: ClusterIP
-    port: 22
+    port: 2222
     clusterIP:
     loadBalancerIP:
     nodePort:
@@ -362,6 +362,9 @@ gitea:
     APP_NAME: "Gitea: Ancalagon"
   #  RUN_MODE: dev
   #
+    log:
+      LEVEL: WARN
+
     server:
       PROTOCOL: http
       DOMAIN: gitea.hl.ancalagon.black
